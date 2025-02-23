@@ -1,0 +1,43 @@
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore virtual environment
+venv/
+env/
+*.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and databases
+*.log
+*.sqlite3
+
+# Ignore Render deployment cache
+render-build/
+.render/
+
+# Ignore environment variables and credentials
+.env
+*.env
+*.json
+config.json
+firebase_config.py  # If storing Firebase credentials
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.iml
+
+# Ignore Python packaging files
+build/
+dist/
+*.egg-info/
+
+# Ignore gunicorn logs
+gunicorn.log
